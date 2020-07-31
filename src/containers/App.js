@@ -17,6 +17,8 @@ class App extends Component {
   }
 
   render() {
+    // render inside of Route needs to be pass a function that returns JSX
+    // {...routerProps} allows us to pass a props call match that passes url info to the children
     return (
       <Router>
         <div>
